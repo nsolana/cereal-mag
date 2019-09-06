@@ -1,0 +1,128 @@
+/*design markers*/
+.designMarker-violet {
+     border: 1px solid darkviolet;
+ }
+.designMarker-blue {
+    border: 1px solid blue;
+}
+.designMarker-orange{
+    border: 1px solid orangered;
+}
+.designMarker-yellow{
+    border: 1px solid yellow;
+}
+.designMarker-green{
+    border: 1px solid forestgreen;
+}
+
+
+body {
+    background: #F4F7F7;
+}
+
+a {
+    color: #919191;
+    text-decoration: none;
+}
+
+a:link {
+    color: #161616;
+}
+a:visited {
+    color: #060606;
+}
+a:hover {
+    color: #666666;
+}
+a:active {
+    color: #999999;
+}
+
+h1 {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h2 {
+    font-family: garamond-fb-display, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h3 {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+p {
+    font-family: garamond-fb-display, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+}
+.left-btm-menu-title {
+    text-transform: uppercase;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.left-btm-menu-txt {
+    text-transform: capitalize;
+    font-family: garamond-fb-display, serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+}
+form {
+
+    position: relative;
+    margin: 12px auto;
+    padding: 15px 25px ;
+}
+
+label, button {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.search-bar {
+    position: relative;
+    margin: 12px auto;
+    padding: 15px 25px ;
+}
+
+@media only screen and (max-width: 414px){
+
+    h1 {
+        font-weight: 300;
+        font-size: 24px;
+        vertical-align: bottom;
+    }
+    h2 {
+        font-weight: 200;
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .imagebox {
+        flex-direction: column;
+    }
+
+  .footertext {
+      text-align: center !important;
+      margin-top: 18px;
+  }
+
+}
